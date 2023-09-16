@@ -8,3 +8,5 @@ helm install "yourlabel" repo/package ## note that this is unsafe and should not
 helm repo list
 helm show values reponame/package
 helm pull repo/package
+helm template "yourlabel" repo/package  == this generates a yaml for you.
+helm create 'nameofchartyouwant'
